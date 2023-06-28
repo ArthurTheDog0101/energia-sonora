@@ -1,2 +1,2 @@
 # energia-sonora
-skibididopdopdopdopyesyesyes! Segundo ano B, Arthur R, Jean A, Maria L, Natalia A. 
+skibididopdopdopdopyesyesyes! Segundo ano B, Arthur R, Jean A, Maria L, Natalia A, Guilherme A.
