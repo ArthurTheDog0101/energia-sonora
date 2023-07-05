@@ -1,0 +1,14 @@
+.cabecalho__menu-hamburger
+{
+    background-image: url("img/som-removebg-preview.png");
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.cabecalho
+{
+    background-color: #4eadd7;
+    display: flex;
+    justify-content: space-between;
+}

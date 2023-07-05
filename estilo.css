@@ -1,5 +1,12 @@
+
+
+@import url("./estilo/header.css");
+:root
+{
+    --plano-de-fundo : aqua;
+}
 body{
-    background-color: brown;
+    
     color: white;
 }
 header{
