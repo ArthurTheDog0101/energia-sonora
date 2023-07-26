@@ -4,6 +4,8 @@
     display: inline-block;
     width: 24px;
     height: 24px;
+
+
 }
 
 .cabecalho
@@ -11,4 +13,14 @@
     background-color: #4eadd7;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    
+}
+
+.lista-menu
+{
+    position: absolute;
+    left: 25%;
+    
+
 }
