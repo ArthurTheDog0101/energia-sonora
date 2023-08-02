@@ -1,14 +1,1 @@
 
-
-@import url("./estilo/header.css");
-:root
-{
-    --plano-de-fundo : aqua;
-}
-body{
-    
-    color: white;
-}
-header{
-    margin: 5%;
-}
