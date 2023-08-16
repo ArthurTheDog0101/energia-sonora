@@ -1,0 +1,75 @@
+.carrossel__titulo {
+    color: #C0D72D;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+}
+
+.card__imagem {
+    padding: 1em;
+    
+}
+
+.carrossel {
+    min-height: 400px; 
+    
+ }
+
+ .card {
+    display: flex;
+     justify-content: space-between;
+     margin-bottom: 0.5em;
+  }
+ .card-container{
+   background: linear-gradient(to bottom, #228212, #C0D72D, #0E9914); 
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+     margin: 1em;
+     padding: 1em;
+ }
+ 
+ .card__botoes{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .botoes__ancora{
+  background-color: green;
+  color: var(--branco);
+  font-weight: 700;
+  padding: 1em 1.5em;
+  text-decoration: none;
+margin-top: 1em;
+}
+.descricao__titulo{
+  color: var(--laranja);
+  font-weight: 700; 
+}
+
+.descricao__titulo--energia{
+  color: var(--azul);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+.descricao__texto{
+  font-size: 14px;
+  line-height: 21px;
+}
+
+ 
