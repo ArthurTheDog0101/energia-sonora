@@ -1,0 +1,16 @@
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+
+
+:root{
+   --plano-de-fundo:#EBECEE;
+   --cor-cabecalho:#ffffff;
+   --cor-texto:#ffffff;
+   --titulo-cabecalho:#EB9B00;
+    --cor-degrade: linear-gradient( #000000 , #0081fa 160%);
+}
+
+
+body{
+    background-color: var(--plano-de-fundo);
+}

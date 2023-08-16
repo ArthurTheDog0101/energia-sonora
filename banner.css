@@ -1,0 +1,23 @@
+.banner {
+  display: flex;
+  background: var(--cor-degrade);
+  color:var(--cor-cabecalho);
+  text-align: center;
+  align-items: center;
+}
+
+.banner--titulo{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.banner--texto{
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+.banner--imagem{
+  height: 100%;
+}
+
