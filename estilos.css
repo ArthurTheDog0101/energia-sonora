@@ -23,15 +23,3 @@ body, html {
     margin: 0;
     padding: 0;
   }
-
-  .vídeo {
-    text-align: center;
-    margin-top: 2rem; 
-  }
-  
-  .vídeo__titulo {
-    color: white;
-    font-weight: 700;
-    margin-bottom: 1em;
-  }
-  
