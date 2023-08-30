@@ -1,2 +1,2 @@
-# home_energia_sonora
-Site do tema "Como transformar som em energia"
+# Energia Sonora
+Como o som vira energia :D

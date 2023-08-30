@@ -1,141 +1,182 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energia Sonora</title>
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kite+One&family=Poppins:wght@300;400;500;700&family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />    
-    <link rel="stylesheet" href="./estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-      <header class="cabecalho">
+    <header class="cabeçalho">
         <div class="container">
-          <input type="checkbox" id="menu" class="container__botao">
-          <label for="menu">
-          <span class="cabecalho_menu-hamburguer container--imagem"></span>
-        </label>
-        <ul class="lista-menu">
-            <li class="lista-menu__titulo">Categorias</li>
-            <li class="lista-menu__item"><a href="https://samircort.github.io/sitequimica/" class="lista-menu__link">Combustão</a></li>
-            <li class="lista-menu__item"><a href="https://nacaxi.github.io/renovavel/" class="lista-menu__link">Energias Renováveis</a></li>
-            <li class="lista-menu__item"><a href="https://nzraupp.github.io/ECOPLAS/" class="lista-menu__link">Plástico menos poluente</a></li>
-            <li class="lista-menu__item"><a href="https://brendinha0823.github.io/energia_solar/" class="lista-menu__link">Energia Solar</a></li>
-            <li class="lista-menu__item"><a href="https://team-herinzo.github.io/Quimica-programada/" class="lista-menu__link">Combustíveis Fósseis</a></li>
-            <li class="lista-menu__item"><a href="https://arthurthedog0101.github.io/energia-sonora/" class="lista-menu__link">Energia Elétrica (Som)</a></li>
-            <li class="lista-menu__item"><a href="https://yuri-ghost.github.io/concurso-agrinho-energia-fotossintetica/" class="lista-menu__link">Energia Elétrica (Fotossíntese)</a></li>
-            <li class="lista-menu__item"><a href="https://gustavo11052007.github.io/Energia_atraves_do_lixo/" class="lista-menu__link">Energia Elétrica (Lixo)</a></li>
-            <li class="lista-menu__item"><a href="https://math07mpo.github.io/energia.solar/" class="lista-menu__link">Custo de Energia Limpa</a></li>
-        </ul>
-        
-      </div>
-      </header>
-      <section class="banner">
-        <h2 class="banner__titulo">Energia Sonora</h2>
-        <p class="banner__texto"> Descubra como a Energia Sonora retirada do ambiente pode mudar o mundo. </p>
-      </section>
-      <hr/>
-      <section class="carrossel">
-        <h2 class="carrossel__titulo">Temas</h2>
-        <!-- Slider main container -->
-        <hr/>
-        <div class="swiper">
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-   <!-- Slides -->
-   <div class="swiper-slide">
-    <a href="https://conceitosdomundo.pt/energia-sonora/"><img
-      src="img/Como o som vira energia.png"
-      alt="Entenda as possibilidades e previsões"
-    /></a>
-  </div>
-  <div class="swiper-slide">
-    <a href="https://www.youtube.com/watch?v=nFg6w_aoSkk"><img
-      src="img/Como o som vira energia (1).png"
-      alt="Saiba como estudos mostraram a viabilidade do projeto"
-    /></a>
-  </div>
-  <div class="swiper-slide">
-    <a href="https://www.youtube.com/watch?v=IG3Wx1bEkAY"><img src="img/Como o som vira energia (2).png" alt="Lista dos benefícios" /></a>
-  </div>
-  <div class="swiper-slide">
-    <a href="https://www.youtube.com/watch?v=wMgYbsfDbcY"><img src="img/Como o som vira energia (3).png" alt="Petróleo e a Arca de Noé" /></a>
-  </div>
-  <div class="swiper-slide">
-    <a href="https://yuri-ghost.github.io/home_energia_fotossintese/"><img
-      src="img/Como o som vira energia (4).png"
-      alt="Impactos das energias não renováveis"
-    /></a>
-  </div>
-  <div class="swiper-slide">
-    
-     
-    /></a>
-  </div>
-  </div>
-</div>
-
-        
-          <!--2 Coluna-->
-          <img src="./img/fd8eda60-33bf-481e-9e9f-6784eaf0c9a7-removebg-preview.png" alt="energia solar e eólica" />
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="https://samircort.github.io/sitequimica/" class="lista-menu__link">Combustão</a></li>
+                <li class="lista-menu__item"><a href="https://nacaxi.github.io/renovavel/" class="lista-menu__link">Energias Renováveis</a></li>
+                <li class="lista-menu__item"><a href="https://nzraupp.github.io/ECOPLAS/" class="lista-menu__link">Plástico menos poluente</a></li>
+                <li class="lista-menu__item"><a href="https://brendinha0823.github.io/energia_solar/" class="lista-menu__link">Energia Solar</a></li>
+                <li class="lista-menu__item"><a href="https://team-herinzo.github.io/Quimica-programada/" class="lista-menu__link">Combustíveis Fósseis</a></li>
+                <li class="lista-menu__item"><a href="https://arthurthedog0101.github.io/energia-sonora/" class="lista-menu__link">Energia Elétrica (Som)</a></li>
+                <li class="lista-menu__item"><a href="https://yuri-ghost.github.io/concurso-agrinho-energia-fotossintetica/" class="lista-menu__link">Energia Elétrica (Fotossíntese)</a></li>
+                <li class="lista-menu__item"><a href="https://gustavo11052007.github.io/Energia_atraves_do_lixo/" class="lista-menu__link">Energia Elétrica (Lixo)</a></li>
+                <li class="lista-menu__item"><a href="https://math07mpo.github.io/energia.solar/" class="lista-menu__link">Custo de Energia Limpa</a></li>
+            </ul>
+            <img src="img/logo.png" alt="Logo" class="container__imagem">
         </div>
-          <div class="card__botoes">
-                  
-    </div>
-      
-    <section class="tópicos">
-      <h2 class="tópicos__titulo">Temas Variados</h2>
-      <ul class="tópicos__lista">
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/biologia/algas.htm" class="tópicos__link">Algas</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/geografia/petroleo.htm" class="tópicos__link">Petróleo</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://www.youtube.com/watch?v=mlHdyv5G1f0" class="tópicos__link">Energias Renováveis</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/biologia/fotossintese.htm" class="tópicos__link">Fotossíntese</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/fisica/eletricidade.htm" class="tópicos__link">Eletricidade</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/educacao/sustentabilidade.htm" class="tópicos__link">Sustentabilidade</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/geografia/meio-ambiente.htm" class="tópicos__link">Meio Ambiente</a>
-        </li>
-        <li class="tópicos__item">
-          <a href="https://brasilescola.uol.com.br/biologia/ecologia.htm" class="tópicos__link">Ecologia</a>
-        </li>
-      </ul>
+        <div class="container">
+            <a href="#"><img src="img/favs.png" alt="Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="img/compras.png" alt="Sacola de compras" class="container__imagem"></a>
+            <a href="#"><img src="img/perfil.png" alt="Meu perfil" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">ENERGIA SONORA</h2>
+        <p class="banner__texto">Descubra como a Energia Sonora retirada do ambiente pode mudar o mundo.</p>
+        <img src="img/Banner.png" alt="ENERGIA SONORA. Descubra como a Energia Sonora retirada do ambiente pode mudar o mundo.">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Temas</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/Como o som vira energia.png"></div>
+                <div class="swiper-slide"><img src="img/Como o som vira energia (1).png"></div>
+                <div class="swiper-slide"><img src="img/Como o som vira energia (2).png"></div>
+                <div class="swiper-slide"><img src="img/mestre yurão.jpg"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__descrição">
+                    <div class="descrição">
+                        <h2 class="descrição__titulo-livro">Sua Transformação</h2>
+                        <p class="descrição__texto">A ciência tem estudado maneiras de transformar energia sonora em energia elétrica, principalmente por meio do uso de materiais piezoelétricos e transdutores. Embora haja desafios em termos de eficiência e disponibilidade de energia sonora, essa abordagem pode ter aplicações práticas em cenários específicos.</p>
+                    </div>
+                    <img src="img/transdutor.png">
+                </div>
+    
+                <div class="card__botões">
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/favs.png" alt="Favoritar"></li>
+                        <li class="botões__item"><img src="img/compras.png" alt="Comprar"></li>
+                    </ul>
+                    <a href="https://www.squids.com.br/arduino/index.php/hardware/componentes-eletronicos/119-disco-piezoeletrico" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+
+
+        <div class="card">
+            <div class="card__descrição">
+                <div class="descrição">
+                    <h2 class="descrição__titulo-livro">Poluição Sonora</h2>
+                    <p class="descrição__texto">É uma ameaça cada vez mais presente devido ao avanço da urbanização e da tecnologia, perturbando o equilíbrio entre sons naturais e produzidos pelo homem. Essa poluição é causada por fontes como tráfego, construção, indústrias e dispositivos eletrônicos. Os efeitos vão além do físico, impactando a saúde mental e o bem-estar. A exposição constante a níveis elevados de ruído pode levar a perda auditiva, distúrbios do sono, pressão arterial alta e problemas cognitivos. Além disso, prejudica a tranquilidade de espaços naturais e a comunicação interpessoal. Enfrentar o problema requer regulamentações rigorosas, planejamento urbano consciente do som e conscientização pública. Proteger a qualidade sonora é essencial para o bem-estar humano e ambiental, buscando um equilíbrio entre os sons humanos e naturais no mundo moderno.</p>
+                </div>
+                <img src="img/Pessoa Ouvindo funk.png" class="descrição__imagem">
+            </div>
+
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/favs.png" alt="Favoritar"></li>
+                    <li class="botões__item"><img src="img/compras.png" alt="Comprar"></li>
+                </ul>
+                <a href="https://escolakids.uol.com.br/geografia/poluicao-sonora.htm#:~:text=Polui%C3%A7%C3%A3o%20sonora%20%C3%A9%20qualquer%20emiss%C3%A3o,vida%20de%20milhares%20de%20pessoas." class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
     </section>
 
-      <hr/>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Provisório</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
 
-      <footer class="rodapé">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/slide 1.png"></div>
+                <div class="swiper-slide"><img src="img/slide 2.png"></div>
+                <div class="swiper-slide"><img src="img/slide 3.png"></div>
+                <div class="swiper-slide"><img src="img/slide 4.png"></div>
+            </div>
+
+        <div class="card">
+            <div class="card__descrição">
+                <div class="descrição">
+                    <h2 class="descrição__titulo-livro">Shrek</h2>
+                    <p class="descrição__texto">Reprovado 5 vezes e sem nenhum conhecimento gramatical, o melhor autor.</p>
+                </div>
+                <img src="img/shrek.png" class="descrição__imagem">
+            </div>
+
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/favs.png" alt="Favoritar"></li>
+                    <li class="botões__item"><img src="img/compras.png" alt="Comprar"></li>
+                </ul>
+                <a href="https://www.adorocinema.com/filmes/filme-27415/curiosidades/" class="botões__ancora">Não saiba mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__descrição">
+                <div class="descrição">
+                    <h2 class="descrição__titulo-livro">Bolnsom Eniergi</h2>
+                    <p class="descrição__texto">Conhecido pela sua força, escreveu este artigo. Favor não descontar nota, Obrigado.
+                        👍</p>
+                </div>
+                <img src="img/Bolnsom Eniergi.png" class="descrição__imagem">
+            </div>
+
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/favs.png" alt="Favoritar"></li>
+                    <li class="botões__item"><img src="img/compras.png" alt="Comprar"></li>
+                </ul>
+                <a href="https://www.adorocinema.com/filmes/filme-27415/curiosidades/" class="botões__ancora">Não saiba mais</a>
+            </div>
+        </div>
+
+    </section>
+     <hr />
+
+     <section class="tópicos">
+        <h2 class="tópicos__titulo">Tópicos</h2>
+        <ul class="tópicos__lista">
+          <li class="tópicos__item">
+            <a href="https://escolakids.uol.com.br/geografia/poluicao-sonora.htm#:~:text=Polui%C3%A7%C3%A3o%20sonora%20%C3%A9%20qualquer%20emiss%C3%A3o,vida%20de%20milhares%20de%20pessoas." class="tópicos__link">Poluição Sonora</a>
+          </li>
+          <li class="tópicos__item">
+            <a href="https://conceitosdomundo.pt/energia-sonora/" class="tópicos__link">Energia Sonora</a>
+          </li>
+          <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Curiosidades</a>
+          </li>
+         </ul>
+      </section>
+
+    <footer class="rodapé">
         <h2 class="rodapé__titulo">CCM REPÚBLICA ORIENTAL DO URUGUAI</h2>
-      </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-      <script>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
         const swiper = new Swiper('.swiper', {
-      spaceBetween: 10,
-      slidesPerView: 3,
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
-      });
-      </script>
-    </body>
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
 </html>
