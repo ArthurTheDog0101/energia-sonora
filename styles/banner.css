@@ -1,8 +1,6 @@
 .banner {
-    background: linear-gradient(160deg, #0066ff 0%, #1a00ae 100%);
-    color: var(--branco);
+    background-image: url("../img/Banner.png");
     text-align: center;
-    
 }
 
 .banner__titulo {
