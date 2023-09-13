@@ -58,3 +58,26 @@
 .container__botao {
     display: none;
 }
+.container--titulo{
+    display: none;
+
+}
+.opcoes{
+    display: none;
+    display: flex;
+}
+.opcoes--item{
+    padding: 0 1em;
+    text-transform:uppercase;
+}
+
+@media screen and (min-width:1024px) {
+    .container--titulo{
+        display:block;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--branco);
+    }
+
+}
+
